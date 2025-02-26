@@ -23,7 +23,6 @@
   "bar.clock.format": "%a %b %d  %H:%M",
   "notifications.position": "top right",
   "bar.media.show_active_only": true,
-
   "theme.bar.menus.background": "#040e14",
   "theme.bar.background": "#040e14",
   "theme.bar.buttons.media.icon": "#c4a7e7",
@@ -386,5 +385,49 @@
   "theme.bar.buttons.modules.cava.background": "#11181d",
   "theme.bar.buttons.modules.cava.icon_background": "#11181d",
   "theme.bar.buttons.modules.cava.icon": "#9ccfd8",
-  "theme.bar.buttons.modules.cava.border": "#9ccfd8"
+  "theme.bar.buttons.modules.cava.border": "#9ccfd8",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  }
 }
